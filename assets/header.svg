@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="340" viewBox="0 0 900 340">
+  <defs>
+    <pattern id="grid" x="30" y="20" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#242424" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect x="30" y="20" width="840" height="300"/></clipPath>
+    <linearGradient id="sA" x1="0" x2="1"><stop offset="0" stop-color="#a3e635" stop-opacity="0"/><stop offset="1" stop-color="#d9f99d"/></linearGradient>
+    <linearGradient id="sB" x1="0" x2="1"><stop offset="0" stop-color="#f59e0b" stop-opacity="0"/><stop offset="1" stop-color="#fcd34d"/></linearGradient>
+    <linearGradient id="sC" x1="0" x2="1"><stop offset="0" stop-color="#22c55e" stop-opacity="0"/><stop offset="1" stop-color="#86efac"/></linearGradient>
+    <linearGradient id="sD" x1="0" x2="1"><stop offset="0" stop-color="#fb7185" stop-opacity="0"/><stop offset="1" stop-color="#fda4af"/></linearGradient>
+    <style>
+      .sans { font-family: Geist, Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .dome { fill: none; stroke: #2e2e2e; stroke-width: 1; }
+      .s { animation: run 6s linear infinite; }
+      .s2 { animation-delay: -1.5s; animation-duration: 7s; }
+      .s3 { animation-delay: -3s; animation-duration: 5s; }
+      .s4 { animation-delay: -4.5s; animation-duration: 8s; }
+      @keyframes run { from { transform: translateX(-120px); } to { transform: translateX(900px); } }
+      .pulse { animation: pulse 2s ease-out infinite; transform-origin: 98px 272px; }
+      @keyframes pulse { from { transform: scale(1); opacity: .6; } to { transform: scale(3); opacity: 0; } }
+      .caret { animation: blink 1.1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { .s, .pulse, .caret { animation: none; } }
+    </style>
+  </defs>
+
+  <rect width="900" height="340" fill="#000"/>
+
+  <!-- grid box -->
+  <rect x="30" y="20" width="840" height="300" fill="url(#grid)" stroke="#2e2e2e"/>
+
+  <!-- dome: meridians of a hemisphere rising from the bottom edge -->
+  <g clip-path="url(#frame)" class="dome">
+    <path d="M30 320A420 300 0 0 1 870 320"/>
+    <path d="M170 320A280 300 0 0 1 730 320"/>
+    <path d="M310 320A140 300 0 0 1 590 320"/>
+    <path d="M450 20V320"/>
+  </g>
+
+  <!-- light streaks travelling along grid lines -->
+  <g clip-path="url(#frame)">
+    <rect class="s" x="30" y="79.5" width="90" height="1.5" fill="url(#sA)"/>
+    <rect class="s s2" x="30" y="199.5" width="70" height="1.5" fill="url(#sB)"/>
+    <rect class="s s3" x="30" y="259.5" width="110" height="1.5" fill="url(#sC)"/>
+    <rect class="s s4" x="30" y="139.5" width="60" height="1.5" fill="url(#sD)"/>
+  </g>
+
+  <!-- crosshairs -->
+  <g stroke="#ededed" stroke-width="1">
+    <path d="M18 20h24M30 8v24"/>
+    <path d="M858 320h24M870 308v24"/>
+  </g>
+
+  <!-- content -->
+  <text x="80" y="185" class="sans" font-size="76" font-weight="600" letter-spacing="-3.5" fill="#ededed">Valentin</text>
+  <text x="84" y="226" class="mono" font-size="14" fill="#a1a1a1">Platform Engineer · SRE · Cloud - AI enthusiast<tspan class="caret" fill="#ededed">▍</tspan></text>
+
+  <!-- status pill -->
+  <rect x="80" y="254" width="226" height="36" rx="18" fill="#ededed"/>
+  <circle class="pulse" cx="98" cy="272" r="4" fill="#00a854"/>
+  <circle cx="98" cy="272" r="4" fill="#00a854"/>
+  <text x="112" y="277" class="sans" font-size="14" font-weight="500" fill="#0a0a0a">Deployed · Geneva region</text>
+</svg>
