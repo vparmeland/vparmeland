@@ -23,17 +23,14 @@ I'm a generalist engineer. I started in cloud infrastructure, and I now use new 
   <img src="https://img.shields.io/badge/Prometheus-000?style=flat-square&logo=prometheus&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-000?style=flat-square&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Bash-000?style=flat-square&logo=gnubash&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Claude_Code-grow_with_me-333?style=flat-square&logo=anthropic&logoColor=white&labelColor=000"/>
+  <img src="https://img.shields.io/badge/Claude_Code-000?style=flat-square&logo=anthropic&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Grow_with_me-000?style=flat-square"/>
 </p>
 
 ### Analytics
 
 <p align="center">
   <img height="165" src="https://streak-stats.demolab.com?user=vparmeland&background=000000&border=333333&stroke=333333&ring=ededed&fire=ededed&currStreakNum=ededed&sideNums=ededed&currStreakLabel=a1a1a1&sideLabels=a1a1a1&dates=666666&border_radius=8" alt="GitHub streak"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vparmeland&bg_color=000000&color=a1a1a1&line=ededed&point=ffffff&area=true&area_color=333333&hide_border=true&radius=8" alt="activity graph" width="100%"/>
 </p>
 
 ### Logs
@@ -43,7 +40,3 @@ I'm a generalist engineer. I started in cloud infrastructure, and I now use new 
 + ask me about: turning 3am pages into 0 pages
 - rejected:     YAML indentation debates, Azure infrastructure (if possible :P)
 ```
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=vparmeland&color=000000&style=flat-square&label=visitors" alt="profile views"/>
-</p>
