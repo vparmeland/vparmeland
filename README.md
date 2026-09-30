@@ -29,7 +29,7 @@ I'm a generalist engineer. I started in cloud infrastructure, and I now use new 
 ### Analytics
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vparmeland&show_icons=true&include_all_commits=true&hide_border=false&bg_color=000000&title_color=ededed&text_color=a1a1a1&icon_color=ededed&border_color=333333&border_radius=8" alt="GitHub stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=vparmeland&show_icons=true&hide_border=false&bg_color=000000&title_color=ededed&text_color=a1a1a1&icon_color=ededed&border_color=333333&border_radius=8" alt="GitHub stats"/>
   <img height="165" src="https://streak-stats.demolab.com?user=vparmeland&background=000000&border=333333&stroke=333333&ring=ededed&fire=ededed&currStreakNum=ededed&sideNums=ededed&currStreakLabel=a1a1a1&sideLabels=a1a1a1&dates=666666&border_radius=8" alt="GitHub streak"/>
 </p>
 
